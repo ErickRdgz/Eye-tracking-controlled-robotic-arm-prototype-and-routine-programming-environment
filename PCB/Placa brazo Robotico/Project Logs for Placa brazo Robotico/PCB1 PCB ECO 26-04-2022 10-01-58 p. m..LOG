@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=VM6 Pin=Vin-1
+Removed Pin From Net: NetName=VM6 Pin=Vin-2
+Removed Pin From Net: NetName=VM6 Pin=Vin-3
+Change Component Designator: OldDesignator=GND NewDesignator=P2
+Change Component Designator: OldDesignator=Vin NewDesignator=P3
+Added Pin To Net: NetName=ESP_Vin Pin=P3-1
+Added Pin To Net: NetName=ESP_Vin Pin=P3-2
+Added Pin To Net: NetName=ESP_Vin Pin=P3-3
+Added Member To Class: ClassName=Esquematico Member=Component ESP1 ESP32
+Added Member To Class: ClassName=Esquematico Member=Component P2 Header 3
+Added Room: Name=Esquematico
