@@ -1,0 +1,15 @@
+release/arduino.o
+release/cinematica.o
+release/interfazestandar_points.o
+release/interfazestandar_program.o
+release/lista.o
+release/main.o
+release/interfazestandar.o
+release/revolutearm.o
+release/sequencecontrolform.o
+release/sequencer.o
+release/settingsform.o
+release/moc_interfazestandar.o
+release/moc_sequencecontrolform.o
+release/moc_sequencer.o
+release/moc_settingsform.o

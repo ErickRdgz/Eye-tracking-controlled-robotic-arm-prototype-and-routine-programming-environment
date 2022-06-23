@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SequenceControlForm</class>
+ <widget class="QDialog" name="SequenceControlForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>431</width>
+    <height>150</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="Btn_Execution">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>52</y>
+     <width>90</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ejecutar</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Out_ExecutionCounter">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>122</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Out_info">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>122</y>
+     <width>341</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Btn_CancelExecution">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>52</y>
+     <width>90</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>68</x>
+     <y>12</y>
+     <width>300</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Control de ejecucion de programas</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Btn_StopAndPlay">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>52</y>
+     <width>90</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pausar</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="SBox_N_Executions">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>60</y>
+     <width>51</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="maximum">
+    <number>50</number>
+   </property>
+   <property name="value">
+    <number>1</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

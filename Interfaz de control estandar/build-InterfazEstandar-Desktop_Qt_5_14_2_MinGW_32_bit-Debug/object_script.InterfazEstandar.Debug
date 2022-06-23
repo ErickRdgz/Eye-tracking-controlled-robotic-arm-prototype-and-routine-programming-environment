@@ -1,0 +1,15 @@
+debug/arduino.o
+debug/cinematica.o
+debug/interfazestandar_points.o
+debug/interfazestandar_program.o
+debug/lista.o
+debug/main.o
+debug/interfazestandar.o
+debug/revolutearm.o
+debug/sequencecontrolform.o
+debug/sequencer.o
+debug/settingsform.o
+debug/moc_interfazestandar.o
+debug/moc_sequencecontrolform.o
+debug/moc_sequencer.o
+debug/moc_settingsform.o
